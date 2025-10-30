@@ -34,3 +34,26 @@ git push -u origin main
 
 
 
+additional for .env and .gitignore
+
+.env 
+
+# .env
+DATABASE_URL=postgres://admin:password@localhost:5432/mydb
+JWT_SECRET=supersecretkey
+API_KEY=abcd1234
+
+
+.gitignore
+
+# .gitignore
+node_modules/
+__pycache__/
+.vscode/
+.DS_Store
+
+# Ignore environment and secrets
+.env
+.env.*
+*.local
+*.key

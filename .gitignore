@@ -1,0 +1,11 @@
+# .gitignore
+node_modules/
+__pycache__/
+.vscode/
+.DS_Store
+
+# Ignore environment and secrets
+.env
+.env.*
+*.local
+*.key
